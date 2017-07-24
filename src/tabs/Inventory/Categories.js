@@ -2,7 +2,7 @@
  * Created by admin on 2017-07-21.
  */
 import React from 'react';
-import { Tab, Row, Col, NavItem, Nav, MenuItem, NavDropdown }  from 'react-bootstrap'
+import { Tab, Row, Col, NavItem, Nav, MenuItem, NavDropdown , Modal }  from 'react-bootstrap'
 import InventoryTable from "./InventoryTable";
 
 
@@ -10,29 +10,69 @@ class Categories extends React.Component {
     constructor() {
         super();
         this.state = {
-            count: 0,
+            currentTab : "first",
+            showCreateModal: false,
+            showDeleteModal: false,
         };
+    }
+
+    showCreateCategory() {
+      this.setState({
+        showCreateModal: true,
+        showDeleteModal: false,
+      });
+      console.log(this.state.showCreateModal);
+    }
+
+    hideCreateCategory() {
+      this.setState({
+        showCreateModal: false,
+        showDeleteModal: false,
+      });
+      console.log(this.state.showCreateModal);
     }
 
     render() {
         return(
             <div className="col-lg-12">
+              <Modal show={this.state.showCreateModal}
+                      onHide={this.hideCreateCategory.bind(this)}>
+                <Modal.Header>
+                  <Modal.Title> Hello World </Modal.Title>
+                </Modal.Header>
+              </Modal>
                 <Tab.Container id="tabs-with-dropdown" defaultActiveKey="first">
                     <Row className="clearfix">
                         <Col sm={12}>
                             <Nav bsStyle="tabs">
-                                <NavItem eventKey="first">
+                                <NavItem eventKey="first"
+                                    onSelect={(ev_key, ev) => {this.setState({...this.state, currentTab : ev_key})}}>
                                     Tab 1
                                 </NavItem>
-                                <NavItem eventKey="second">
+                                <NavItem eventKey="second"
+                                    onSelect={(ev_key, ev) => {this.setState({...this.state, currentTab : ev_key})}}>
                                     Tab 2
                                 </NavItem>
-                                <NavDropdown eventKey="3" title="More Actions">
-                                    <MenuItem eventKey="3.1">Action</MenuItem>
-                                    <MenuItem eventKey="3.2">Another action</MenuItem>
-                                    <MenuItem eventKey="3.3">Something else here</MenuItem>
+                                <NavItem eventKey="third"
+                                    onSelect={(ev_key, ev) => {this.setState({...this.state, currentTab : ev_key})}}>
+                                    Tab 3
+                                </NavItem>
+                                <NavItem eventKey="fourth"
+                                    onSelect={(ev_key, ev) => {this.setState({...this.state, currentTab : ev_key})}}>
+                                    Tab 4
+                                </NavItem>
+                                <NavDropdown title="Actions">
+                                    <MenuItem
+                                      eventKey={this.state.currentTab}
+                                      onClick={this.showCreateCategory.bind(this)}>
+                                      Create Category
+                                    </MenuItem>
+                                    <MenuItem>
+                                      Delete Category
+                                    </MenuItem>
+                                    <MenuItem>Another Action</MenuItem>
                                     <MenuItem divider />
-                                    <MenuItem eventKey="3.4">Separated link</MenuItem>
+                                    <MenuItem>Separated link</MenuItem>
                                 </NavDropdown>
                             </Nav>
                         </Col>
@@ -44,18 +84,6 @@ class Categories extends React.Component {
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
                                     Hardware
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="3.1">
-                                    Tab 3.1 content
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="3.2">
-                                    Tab 3.2 content
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="3.3">
-                                    Tab 3.3 content
-                                </Tab.Pane>
-                                <Tab.Pane eventKey="3.4">
-                                    Tab 3.4 content
                                 </Tab.Pane>
                             </Tab.Content>
                         </Col>
