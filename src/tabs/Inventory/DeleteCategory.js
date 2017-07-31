@@ -2,7 +2,7 @@
 import React from 'react';
 import { Modal , Button } from 'react-bootstrap/lib/';
 
-class CreateCategory extends React.Component {
+class DeleteCategory extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -12,7 +12,7 @@ class CreateCategory extends React.Component {
         <Modal show={this.props.show} onHide={this.props.onHide}>
 
             <Modal.Header>
-              <Modal.Title>Create Category</Modal.Title>
+              <Modal.Title>Delete Category</Modal.Title>
             </Modal.Header>
 
             <Modal.Body>
@@ -30,4 +30,4 @@ class CreateCategory extends React.Component {
 
 }
 
-export default CreateCategory;
+export default DeleteCategory;
