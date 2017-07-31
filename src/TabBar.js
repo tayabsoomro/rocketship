@@ -11,6 +11,7 @@ import Row from 'react-bootstrap/lib/Row'
 import Inventory from './tabs/Inventory/CheckInventory/Inventory'
 import Home from './tabs/home/Home'
 import Products from './tabs/products/Products'
+import OrderSupplies from "./tabs/Inventory/subtab/order-supplies/OrderSupplies";
 
 
 
@@ -26,7 +27,11 @@ class TabBar extends React.Component {
         return (
             /** Sidebar listing all functionalities available **/
             <div>
+
+
+
                <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+
                     <Row className="clearfix">
                         <Col sm={4}>
                             <Nav bsStyle="pills" stacked>
@@ -41,6 +46,9 @@ class TabBar extends React.Component {
                                 </NavItem>
                                 <NavItem eventKey="fourth">
                                     Performance
+                                </NavItem>
+                                <NavItem eventKey="fifth">
+                                    Order Supplies
                                 </NavItem>
                              </Nav>
                         </Col>
@@ -57,6 +65,9 @@ class TabBar extends React.Component {
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="fourth">
                                     to be done..
+                                </Tab.Pane>
+                                <Tab.Pane eventKey="fifth">
+                                    <OrderSupplies/>
                                 </Tab.Pane>
                             </Tab.Content>
                         </Col>
