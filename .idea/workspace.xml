@@ -2,452 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68f84c58-8faa-42a2-8fd8-ee6150e32b4e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/AliasFieldPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/AliasPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/AppendPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/CloneBasenamePlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ConcordExtensionsPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ConcordMainPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ConcordModulesPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/DescriptionFileUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/DirectoryExistsPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/FileExistsPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/FileKindPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/JoinRequestPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/LogInfoPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/MainFieldPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ModuleAppendPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ModuleKindPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ModulesInHierachicDirectoriesPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ModulesInRootPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/NextPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/NodeJsInputFileSystem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ParsePlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/Resolver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ResolverFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/ResultPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/SymlinkPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/SyncAsyncFileSystemDecorator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/TryNextPlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/UnsafeCachePlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/UseFilePlugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/concord.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/createInnerCallback.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/forEachBail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/getInnerRequest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/getPaths.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/globToRegExp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/lib/node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/enhanced-resolve/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/app/deep_copy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/app/deep_copy.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/app/shared_promise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/app/shared_promise.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/database-node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/firebase/database-node.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-utf8/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-utf8/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-utf8/is-utf8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/is-utf8/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/load-json-file/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/load-json-file/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/load-json-file/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/load-json-file/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/path-type/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/path-type/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/path-type/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/path-type/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/node_modules/find-up/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/node_modules/find-up/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/node_modules/find-up/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/node_modules/find-up/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/node_modules/path-exists/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/node_modules/path-exists/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/node_modules/path-exists/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/node_modules/path-exists/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg-up/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/read-pkg/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/strip-bom/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/strip-bom/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/strip-bom/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/strip-bom/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tapable/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tapable/lib/Tapable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/tapable/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/watchpack/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/watchpack/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/watchpack/lib/DirectoryWatcher.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/watchpack/lib/watcherManager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/watchpack/lib/watchpack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/watchpack/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/which-module/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/which-module/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/which-module/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/which-module/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/which-module/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs-parser/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs-parser/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs-parser/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs-parser/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs-parser/lib/tokenize-arg-string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs-parser/node_modules/camelcase/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs-parser/node_modules/camelcase/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs-parser/node_modules/camelcase/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs-parser/node_modules/camelcase/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs-parser/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/completion.sh.hbs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/assign.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/command.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/completion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/levenshtein.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/obj-filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/usage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/lib/validation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/be.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/de.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/en.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/es.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/fr.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/hi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/hu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/id.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/it.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/ja.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/ko.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/nb.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/nl.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/pirate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/pl.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/pt.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/pt_BR.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/ru.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/th.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/tr.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/locales/zh_CN.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/camelcase/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/camelcase/license" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/camelcase/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/camelcase/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/cliui/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/cliui/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/cliui/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/cliui/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/cliui/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/yargs/yargs.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@google-cloud/storage/package.json" afterPath="$PROJECT_DIR$/node_modules/@google-cloud/storage/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@google-cloud/storage/src/file.js" afterPath="$PROJECT_DIR$/node_modules/@google-cloud/storage/src/file.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dom-scroll-into-view/package.json" afterPath="$PROJECT_DIR$/node_modules/dom-scroll-into-view/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/README.md" afterPath="$PROJECT_DIR$/node_modules/firebase/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app.d.ts" afterPath="$PROJECT_DIR$/node_modules/firebase/app.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app.js" afterPath="$PROJECT_DIR$/node_modules/firebase/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/app.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/errors.js" afterPath="$PROJECT_DIR$/node_modules/firebase/app/errors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/errors.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/app/errors.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/firebase_app.js" afterPath="$PROJECT_DIR$/node_modules/firebase/app/firebase_app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/firebase_app.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/app/firebase_app.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/subscribe.js" afterPath="$PROJECT_DIR$/node_modules/firebase/app/subscribe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/app/subscribe.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/app/subscribe.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/auth.js" afterPath="$PROJECT_DIR$/node_modules/firebase/auth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/database.js" afterPath="$PROJECT_DIR$/node_modules/firebase/database.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/database.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/database.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-app-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-app-externs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-app-internal-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-app-internal-externs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-auth-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-auth-externs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-client-auth-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-client-auth-externs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-database-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-database-externs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-database-internal-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-database-internal-externs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-error-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-error-externs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-externs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-messaging-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-messaging-externs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-storage-externs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/externs/firebase-storage-externs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-app.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-app.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-app.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-auth.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-auth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-browser.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-browser.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-browser.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-database.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-database.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-database.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-database.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-messaging.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-messaging.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-messaging.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-messaging.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-node.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-node.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-node.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-node.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-react-native.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-react-native.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-react-native.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-react-native.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-storage.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-storage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase-storage.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase-storage.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase.d.ts" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase.js" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/firebase.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/firebase.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging.js" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/controller-interface.js" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/controller-interface.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/controller-interface.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/controller-interface.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/sw-controller.js" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/sw-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/sw-controller.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/sw-controller.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/window-controller.js" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/window-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/window-controller.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/controllers/window-controller.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/helpers/array-buffer-to-base64.js" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/helpers/array-buffer-to-base64.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/helpers/array-buffer-to-base64.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/helpers/array-buffer-to-base64.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/db-interface.js" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/db-interface.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/db-interface.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/db-interface.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/default-sw.js" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/default-sw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/default-sw.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/default-sw.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/errors.js" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/errors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/errors.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/errors.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/fcm-details.js" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/fcm-details.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/fcm-details.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/fcm-details.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/notification-permission.js" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/notification-permission.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/token-details-model.js" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/token-details-model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/token-details-model.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/token-details-model.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/token-manager.js" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/token-manager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/token-manager.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/token-manager.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/vapid-details-model.js" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/vapid-details-model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/vapid-details-model.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/vapid-details-model.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/worker-page-message.js" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/worker-page-message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/messaging/models/worker-page-message.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/messaging/models/worker-page-message.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/base64url/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/base64url/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/buffer-equal-constant-time/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/buffer-equal-constant-time/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/dom-storage/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/dom-storage/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/ecdsa-sig-formatter/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/ecdsa-sig-formatter/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/faye-websocket/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/faye-websocket/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/hoek/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/hoek/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/isemail/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/isemail/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/joi/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/joi/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/jsonwebtoken/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jwa/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/jwa/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/jws/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/jws/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/lodash.once/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/lodash.once/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/moment/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/moment/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/ms/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/promise-polyfill/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/promise-polyfill/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/safe-buffer/index.js" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/safe-buffer/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/safe-buffer/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/safe-buffer/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/topo/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/topo/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/websocket-driver/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/websocket-driver/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/websocket-extensions/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/websocket-extensions/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/xmlhttprequest/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/xmlhttprequest/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/node_modules/xtend/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/node_modules/xtend/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/npm-shrinkwrap.json" afterPath="$PROJECT_DIR$/node_modules/firebase/npm-shrinkwrap.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/package.json" afterPath="$PROJECT_DIR$/node_modules/firebase/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/args.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/args.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/args.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/args.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/array.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/array.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/array.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/array.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/async.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/async.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/async.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/authwrapper.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/authwrapper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/authwrapper.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/authwrapper.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/backoff.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/backoff.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/backoff.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/backoff.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/blob.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/blob.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/blob.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/blob.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/constants.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/constants.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/constants.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/error.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/error.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/error.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/error.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/failrequest.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/failrequest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/failrequest.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/failrequest.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/fs.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/fs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/fs.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/fs.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/json.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/json.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/json.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/json.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/location.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/location.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/location.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/location.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/metadata.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/metadata.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/metadata.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/metadata.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/object.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/object.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/object.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/object.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/observer.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/observer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/observer.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/observer.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/path.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/path.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/path.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/path.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/promise_external.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/promise_external.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/promise_external.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/promise_external.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/request.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/request.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/request.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/request.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestinfo.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestinfo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestinfo.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestinfo.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestmaker.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestmaker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestmap.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestmap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestmap.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requestmap.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requests.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requests.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/requests.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/string.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/string.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/string.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/string.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/taskenums.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/taskenums.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/taskenums.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/taskenums.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/type.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/type.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/type.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/type.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/url.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/url.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhrio.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhrio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhrio.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhrio.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhrio_network.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhrio_network.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhrio_network.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhrio_network.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhriopool.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhriopool.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhriopool.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/implementation/xhriopool.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/metadata.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/metadata.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/reference.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/reference.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/reference.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/reference.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/service.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/service.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/service.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/task.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/task.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/task.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/task.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/tasksnapshot.js" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/tasksnapshot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/firebase/storage/tasksnapshot.js.map" afterPath="$PROJECT_DIR$/node_modules/firebase/storage/tasksnapshot.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-autocomplete/package.json" afterPath="$PROJECT_DIR$/node_modules/react-autocomplete/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/README.md" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/dist/react-bootstrap.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/dist/react-bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/dist/react-bootstrap.min.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/dist/react-bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/dist/react-bootstrap.min.js.map" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/dist/react-bootstrap.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Button.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ButtonGroup.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ButtonGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Carousel.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/CarouselCaption.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/CarouselCaption.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Checkbox.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Checkbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Clearfix.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Clearfix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/CloseButton.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/CloseButton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Col.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Col.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Dropdown.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Form.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/FormControl.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/FormControl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/FormControlStatic.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/FormControlStatic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Grid.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Grid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Jumbotron.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Jumbotron.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ListGroup.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ListGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Media.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Media.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/MediaBody.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/MediaBody.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/MediaHeading.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/MediaHeading.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/MenuItem.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/MenuItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Modal.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ModalBody.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ModalBody.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ModalFooter.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ModalFooter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ModalTitle.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/ModalTitle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Nav.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Nav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Navbar.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Navbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Overlay.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Overlay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Pagination.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Pagination.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/PaginationButton.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/PaginationButton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Popover.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Radio.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Radio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Row.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Row.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/SafeAnchor.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/SafeAnchor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/TabContent.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/TabContent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/TabPane.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/TabPane.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Tabs.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Tabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Thumbnail.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Thumbnail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Tooltip.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/Tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/index.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/es/utils/PropTypes.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/es/utils/PropTypes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Button.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ButtonGroup.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ButtonGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Carousel.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/CarouselCaption.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/CarouselCaption.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Checkbox.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Checkbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Clearfix.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Clearfix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/CloseButton.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/CloseButton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Col.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Col.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Dropdown.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Form.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/FormControl.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/FormControl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/FormControlStatic.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/FormControlStatic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Grid.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Grid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Jumbotron.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Jumbotron.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ListGroup.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ListGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Media.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Media.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/MediaBody.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/MediaBody.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/MediaHeading.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/MediaHeading.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/MenuItem.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/MenuItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Modal.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ModalBody.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ModalBody.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ModalFooter.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ModalFooter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ModalTitle.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/ModalTitle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Nav.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Nav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Navbar.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Navbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Overlay.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Overlay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Pagination.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Pagination.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/PaginationButton.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/PaginationButton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Popover.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Radio.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Radio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Row.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Row.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/SafeAnchor.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/SafeAnchor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/TabContent.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/TabContent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/TabPane.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/TabPane.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Tabs.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Tabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Thumbnail.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Thumbnail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Tooltip.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/Tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/index.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/utils/PropTypes.js" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/lib/utils/PropTypes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-bootstrap/package.json" afterPath="$PROJECT_DIR$/node_modules/react-bootstrap/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-sidenav/Nav.js" afterPath="$PROJECT_DIR$/node_modules/react-sidenav/Nav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-sidenav/README.md" afterPath="$PROJECT_DIR$/node_modules/react-sidenav/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-sidenav/SideNav.js" afterPath="$PROJECT_DIR$/node_modules/react-sidenav/SideNav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-sidenav/package.json" afterPath="$PROJECT_DIR$/node_modules/react-sidenav/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-sidenav/withRR4.js" afterPath="$PROJECT_DIR$/node_modules/react-sidenav/withRR4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/README.md" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/lib/GetFilenameFromUrl.js" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/lib/GetFilenameFromUrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/lib/Shared.js" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/lib/Shared.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/middleware.js" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/middleware.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/package.json" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/bin/config-optimist.js" afterPath="$PROJECT_DIR$/node_modules/webpack/bin/config-optimist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/bin/config-yargs.js" afterPath="$PROJECT_DIR$/node_modules/webpack/bin/config-yargs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/bin/convert-argv.js" afterPath="$PROJECT_DIR$/node_modules/webpack/bin/convert-argv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/hot/log-apply-result.js" afterPath="$PROJECT_DIR$/node_modules/webpack/hot/log-apply-result.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/hot/log.js" afterPath="$PROJECT_DIR$/node_modules/webpack/hot/log.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Compilation.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Compilation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Compiler.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Compiler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/DelegatedModule.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/DelegatedModule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/DelegatedModuleFactoryPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/DelegatedModuleFactoryPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/DelegatedPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/DelegatedPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/DllReferencePlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/DllReferencePlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ExternalModule.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ExternalModule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/ExternalModuleFactoryPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/ExternalModuleFactoryPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/HotModuleReplacement.runtime.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/HotModuleReplacement.runtime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/MultiCompiler.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/MultiCompiler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/NormalModule.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/NormalModule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/NormalModuleFactory.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/NormalModuleFactory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Parser.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/RecordIdsPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/RecordIdsPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/RequireJsStuffPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/RequireJsStuffPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/SourceMapDevToolPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/SourceMapDevToolPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Stats.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Stats.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/Template.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/Template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/CommonJsPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/CommonJsPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyCompatibilityDependency.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyCompatibilityDependency.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyImportDependencyParserPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/dependencies/HarmonyImportDependencyParserPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/node/NodeWatchFileSystem.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/node/NodeWatchFileSystem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/AggressiveMergingPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/AggressiveMergingPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/AggressiveSplittingPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/AggressiveSplittingPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/ChunkModuleIdRangePlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/ChunkModuleIdRangePlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/CommonsChunkPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/CommonsChunkPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/ConcatenatedModule.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/ConcatenatedModule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/ModuleConcatenationPlugin.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/optimize/ModuleConcatenationPlugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/util/identifier.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/util/identifier.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/lib/webpack.js" afterPath="$PROJECT_DIR$/node_modules/webpack/lib/webpack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/supports-color/index.js" afterPath="$PROJECT_DIR$/node_modules/webpack/node_modules/supports-color/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/supports-color/license" afterPath="$PROJECT_DIR$/node_modules/webpack/node_modules/supports-color/license" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/supports-color/package.json" afterPath="$PROJECT_DIR$/node_modules/webpack/node_modules/supports-color/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/supports-color/readme.md" afterPath="$PROJECT_DIR$/node_modules/webpack/node_modules/supports-color/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/webpack/package.json" afterPath="$PROJECT_DIR$/node_modules/webpack/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tabs/Inventory/CreateCategory.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateCategory.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tabs/Inventory/DeleteCategory.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/DeleteCategory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/Categories.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/Categories.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryTable.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryTable.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -459,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InventoryTable.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InventoryTable.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryTable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="61" column="18" lean-forward="false" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+            <state relative-caret-position="945">
+              <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
               <folding>
                 <element signature="e#43#69#0" expanded="true" />
               </folding>
@@ -515,13 +74,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Categories.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Categories.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/Categories.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-687">
-              <caret line="84" column="71" lean-forward="true" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
+            <state relative-caret-position="323">
+              <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
               <folding>
                 <element signature="e#41#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateCategory.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateCategory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#1#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -545,18 +116,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-              <folding>
-                <element signature="e#43#69#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchBar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/SearchBar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="38" selection-end-column="25" />
               <folding>
                 <element signature="e#43#69#0" expanded="true" />
               </folding>
@@ -596,6 +155,7 @@
       <find>action</find>
       <find>butt</find>
       <find>add</find>
+      <find>will allow addition</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -644,8 +204,8 @@
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryActions.js" />
         <option value="$PROJECT_DIR$/www/css/main.css" />
-        <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryTable.js" />
         <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/Categories.js" />
+        <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryTable.js" />
       </list>
     </option>
   </component>
@@ -667,8 +227,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="376" />
     <option name="y" value="23" />
-    <option name="width" value="1274" />
+    <option name="width" value="898" />
     <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -825,12 +386,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/tabs/Inventory" />
-      <recent name="$PROJECT_DIR$/src/tabs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory" />
+      <recent name="$PROJECT_DIR$/src/tabs/Inventory" />
+      <recent name="$PROJECT_DIR$/src/tabs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -956,17 +518,18 @@
       <workItem from="1500677815838" duration="2379000" />
       <workItem from="1500744896283" duration="10829000" />
       <workItem from="1500936923655" duration="5673000" />
-      <workItem from="1501542830522" duration="3555000" />
+      <workItem from="1501542830522" duration="4633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49857000" />
+    <option name="totallyTimeSpent" value="50935000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1274" height="717" extended-state="6" />
+    <frame x="376" y="23" width="898" height="717" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18916798" sideWeight="0.49190283" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26837417" sideWeight="0.49190283" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -974,7 +537,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5080972" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27974278" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27974278" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1017,7 +580,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Body.js" />
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1270,16 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryTable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="61" column="18" lean-forward="false" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-          <folding>
-            <element signature="e#43#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryActions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1291,12 +843,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateCategory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/Categories.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-687">
-          <caret line="84" column="71" lean-forward="true" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
+        <state relative-caret-position="323">
+          <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
           <folding>
             <element signature="e#41#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+          <folding>
+            <element signature="e#43#69#0" expanded="true" />
           </folding>
         </state>
       </provider>

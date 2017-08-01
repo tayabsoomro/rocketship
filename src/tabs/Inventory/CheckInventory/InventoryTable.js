@@ -28,7 +28,7 @@ class InventoryTable extends React.Component {
                         <th>Price</th>
                         <th>Reorder?</th>
 
-                        /**Button will allow addition or deletion of an item under a category**/
+                        {/*Button will allow addition or deletion of an item under a category*/}
                         <th> <Button className="pull-right" bsStyle="success">Add Item</Button> </th>
                     </tr>
                     </thead>

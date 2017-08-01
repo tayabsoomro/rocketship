@@ -2,10 +2,7 @@
 * Created by admin on 2017-07-21.
 */
 import React from 'react';
-import { Tab, Row, Col, NavItem, Nav, MenuItem, NavDropdown , Modal }
-  from 'react-bootstrap';
-
-import { Button, Tab, Row, Col, NavItem, Nav, MenuItem, NavDropdown }  from 'react-bootstrap'
+import { Button, Tab, Row, Col, NavItem, Nav, MenuItem, NavDropdown, Modal }  from 'react-bootstrap'
 import InventoryTable from "./InventoryTable";
 import CreateCategory from "./CreateCategory";
 import DeleteCategory from "./DeleteCategory";
@@ -105,7 +102,8 @@ class Categories extends React.Component {
                                          onSelect={(ev_key, ev) => {this.setState({...this.state, currentTab : ev_key})}}>
                                     Tab 3
                                 </NavItem>
-                                /**Dropdown should display option to create and delete categories**/
+
+                                {/*Dropdown should display option to create and delete categories**/}
                                 <NavDropdown eventKey="3" title="More Actions">
                                     <MenuItem eventKey="3.1">Action</MenuItem>
                                     <MenuItem eventKey="3.2">Another action</MenuItem>
