@@ -1,5 +1,5 @@
 import React from 'react';
-import fire from '../../fire';
+import fire from '../../util/fire';
 
 class Products extends React.Component {
     constructor(props) {

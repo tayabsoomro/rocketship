@@ -10,7 +10,7 @@ var fire = require('./fire').default;
 var path = require('path');
 
 // Google Cloud Storage Setup :
-const keyFilename = './exim-food-firebase-adminsdk-nsw0f-94a93e62ab.json';
+const keyFilename = '';
 const projectId = 'exim-food';
 const bucketName = 'exim-food.appspot.com';
 
@@ -33,15 +33,15 @@ function pushAssetIndex(readPath , refPath, storage_url) {
 	if(refPath !== "") {
 		refPath = path.normalize(refPath);
 	}
-	
+
 	// Create database node for file :
-	dbPath = path.normalize('assets/' + refPath + '/' 
+	dbPath = path.normalize('assets/' + refPath + '/'
 			+ filename.replace('.' , '_'));
 	dbRef = fire.database().ref(dbPath);
 	dbRef.child('Name').set(filename);
 	dbRef.child('URL').set(storage_url);
 	dbRef.child('Upload Time').set(new Date().toString());
-		
+
 }
 
 /**
@@ -84,18 +84,34 @@ function pushAsset(readPath , refPath) {
 	);
 }
 
+ /**
+  * Push an Item entry to database :
+	*/
+	function pushItem(item) {
+		dbRef = fire.database().ref('/items/');
+		dbRef.once("value").then((snapshot) => {
+			if(snapshot.val()) { // items node exists
+				if(snapshot.val()[item.name]) { // item exists
+					return; // do not overwrite
+				} else { // item does not exist
+					dbRef.child(item.name).set(item); // create item
+				}
+			} else { // item node does not exist
+				dbRef.child(item.name).set(item); // create from start
+			}
+		});
+	}
+
+	/**
+	 * Pushes a variation under an item :
+	 */
+	 function pushVariration(variation, item_name) {
+		 dbRef = fire.database().ref('/items/' + item_name);
+	 }
+
 // Entry point for testing :
 
 // Pushing data:
-pushAsset("./test.txt", "/txt");
-
-// Pushing images to database:
-pushAsset("../assets/img/img1.jpg", "/img");
-pushAsset("../assets/img/img2.jpg", "/img");
-pushAsset("../assets/img/img3.jpg", "/img");
-pushAsset("../assets/img/img4.jpg", "/img");
-
-
-
-
-
+pushAssetIndex("./test.txt", "/txt" , "https://example.com/test.txt");
+pushItem({ name: "Chilli", vars: ["1" , "2"] });
+pushItem({ name: "Chilli", vars: [] });
