@@ -10,8 +10,8 @@ import Col from 'react-bootstrap/lib/Col'
 import Row from 'react-bootstrap/lib/Row'
 import Inventory from './tabs/Inventory/CheckInventory/Inventory'
 import Home from './tabs/home/Home'
-import Products from './tabs/products/Products'
-import OrderSupplies from "./tabs/Inventory/subtab/order-supplies/OrderSupplies";
+import AddItemModal from './tabs/Inventory/OrderItems/AddItemModal'
+import OrderSupplies from "./tabs/Inventory/OrderItems/OrderSupplies"
 
 
 
@@ -45,10 +45,10 @@ class TabBar extends React.Component {
                                     Inventory
                                 </NavItem>
                                 <NavItem eventKey="fourth">
-                                    Performance
+                                    Order Items
                                 </NavItem>
                                 <NavItem eventKey="fifth">
-                                    Order Supplies
+                                    Performance
                                 </NavItem>
                              </Nav>
                         </Col>
@@ -64,10 +64,10 @@ class TabBar extends React.Component {
                                     <Inventory/>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="fourth">
-                                    to be done..
+                                    <OrderSupplies/>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="fifth">
-                                    <OrderSupplies/>
+                                    nothing
                                 </Tab.Pane>
                             </Tab.Content>
                         </Col>

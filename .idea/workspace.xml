@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68f84c58-8faa-42a2-8fd8-ee6150e32b4e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tabs/Inventory/CreateCategory.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateCategory.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tabs/Inventory/DeleteCategory.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/DeleteCategory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/CreateItemForm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tabs/Inventory/subtab/order-supplies/AddItemForm.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/OrderItems/AddItemForm.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tabs/Inventory/subtab/order-supplies/AddItemModal.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/OrderItems/AddItemModal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tabs/Inventory/subtab/order-supplies/Items.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/OrderItems/Items.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tabs/Inventory/subtab/order-supplies/OrderSupplies.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/OrderItems/OrderSupplies.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/tabs/Inventory/subtab/order-supplies/SearchBar.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/OrderItems/SearchBar.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TabBar.js" afterPath="$PROJECT_DIR$/src/TabBar.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/Categories.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/Categories.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryTable.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryTable.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +22,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InventoryTable.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryTable.js">
+      <file leaf-file-name="SearchBar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/SearchBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+            <state relative-caret-position="210">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="e#43#69#0" expanded="true" />
               </folding>
@@ -30,44 +34,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/css/main.css">
+      <file leaf-file-name="AddItemForm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/OrderItems/AddItemForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/scripts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="555">
+              <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="16" />
               <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReorderBtn.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/ReorderBtn.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="e#43#69#0" expanded="true" />
               </folding>
             </state>
@@ -77,10 +50,32 @@
       <file leaf-file-name="Categories.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/Categories.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+            <state relative-caret-position="112">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="42" />
               <folding>
                 <element signature="e#41#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateItemForm.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/CreateItemForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReorderBtn.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/ReorderBtn.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="20" selection-end-column="26" />
+              <folding>
+                <element signature="e#43#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,8 +84,8 @@
       <file leaf-file-name="CreateCategory.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateCategory.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="26" />
               <folding>
                 <element signature="e#1#27#0" expanded="true" />
               </folding>
@@ -98,41 +93,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InventoryActions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryActions.js">
+      <file leaf-file-name="TabBar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TabBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="217">
+              <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="8" />
               <folding>
-                <element signature="e#43#85#0" expanded="false" />
-                <element signature="e#86#112#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#49#75#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inventory.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/Inventory.js">
+      <file leaf-file-name="Items.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/OrderItems/Items.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="e#43#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortBar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/ReceiveInventory/SortBar.js">
+      <file leaf-file-name="AddItemModal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/OrderItems/AddItemModal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="e#43#69#0" expanded="true" />
-                <marker date="1501544318000" expanded="true" signature="182:1118" ph="{...}" />
-                <marker date="1501544318000" expanded="true" signature="306:308" ph="{...}" />
-                <marker date="1501544318000" expanded="true" signature="1079:1116" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderSupplies.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/OrderItems/OrderSupplies.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,6 +162,8 @@
       <find>butt</find>
       <find>add</find>
       <find>will allow addition</find>
+      <find>ordersupp</find>
+      <find>createcateg</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -195,7 +203,6 @@
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/tabs/Inventory/InventoryActions.js" />
         <option value="$PROJECT_DIR$/src/tabs/Inventory/InventoryTable.js" />
-        <option value="$PROJECT_DIR$/src/TabBar.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/tabs/CheckInventory/InventoryTable.js" />
         <option value="$PROJECT_DIR$/src/tabs/Inventory/ReceiveInventory/ReceiveInventory.js" />
@@ -204,8 +211,11 @@
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryActions.js" />
         <option value="$PROJECT_DIR$/www/css/main.css" />
-        <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/Categories.js" />
         <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryTable.js" />
+        <option value="$PROJECT_DIR$/src/TabBar.js" />
+        <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/Categories.js" />
+        <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/CreateItem.js" />
+        <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/CreateItemForm.js" />
       </list>
     </option>
   </component>
@@ -227,9 +237,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="376" />
+    <option name="x" value="570" />
     <option name="y" value="23" />
-    <option name="width" value="898" />
+    <option name="width" value="704" />
     <option name="height" value="717" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -373,6 +383,36 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rocketship" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rocketship" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tabs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Inventory" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CheckInventory" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CreateItem" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -390,8 +430,8 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory" />
       <recent name="$PROJECT_DIR$/src/tabs/Inventory" />
+      <recent name="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory" />
       <recent name="$PROJECT_DIR$/src/tabs" />
     </key>
   </component>
@@ -518,18 +558,18 @@
       <workItem from="1500677815838" duration="2379000" />
       <workItem from="1500744896283" duration="10829000" />
       <workItem from="1500936923655" duration="5673000" />
-      <workItem from="1501542830522" duration="4633000" />
+      <workItem from="1501542830522" duration="6947000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50935000" />
+    <option name="totallyTimeSpent" value="53249000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="376" y="23" width="898" height="717" extended-state="0" />
+    <frame x="570" y="23" width="704" height="717" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26837417" sideWeight="0.49190283" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24289773" sideWeight="0.49190283" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -569,40 +609,12 @@
           <line>3</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/TabBar.js</url>
-          <line>58</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="54" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sidepanel.js" />
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/sidepanel.css" />
     <entry file="file://$PROJECT_DIR$/src/NavbarInstance.js" />
     <entry file="file://$PROJECT_DIR$/src/Body.js" />
     <entry file="file://$PROJECT_DIR$/src/main.js">
@@ -616,6 +628,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -638,6 +653,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -654,6 +672,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -741,54 +762,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TabBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#49#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/ReceiveInventory/ReceiveInventory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/SearchBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="38" selection-end-column="25" />
-          <folding>
-            <element signature="e#43#69#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/AddSupplier.js" />
-    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/ReorderBtn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#43#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/ReceiveInventory/SortBar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="e#43#69#0" expanded="true" />
+            <element signature="e#43#69#0" expanded="false" />
             <marker date="1501544318000" expanded="true" signature="182:1118" ph="{...}" />
             <marker date="1501544318000" expanded="true" signature="306:308" ph="{...}" />
             <marker date="1501544318000" expanded="true" signature="1079:1116" ph="{...}" />
@@ -827,6 +813,24 @@
         <state relative-caret-position="270">
           <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
           <folding>
+            <element signature="e#43#69#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/ReceiveInventory/ReceiveInventory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="56" column="48" lean-forward="true" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+          <folding>
             <element signature="e#43#69#0" expanded="true" />
           </folding>
         </state>
@@ -838,15 +842,69 @@
           <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding>
             <element signature="e#43#85#0" expanded="false" />
-            <element signature="e#86#112#0" expanded="true" />
+            <element signature="e#86#112#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/OrderItems/AddItemForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#43#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/OrderItems/AddItemModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#43#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/OrderItems/Items.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#43#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/OrderItems/OrderSupplies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TabBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#49#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateCategory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="26" />
           <folding>
             <element signature="e#1#27#0" expanded="true" />
           </folding>
@@ -855,21 +913,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/Categories.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+        <state relative-caret-position="112">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="42" />
           <folding>
             <element signature="e#41#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/InventoryTable.js">
+    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/SearchBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+        <state relative-caret-position="210">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="e#43#69#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/ReorderBtn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#43#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/CreateItemForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>

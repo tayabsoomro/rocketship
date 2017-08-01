@@ -2,7 +2,7 @@
 * Created by admin on 2017-07-21.
 */
 import React from 'react';
-import { Button, Tab, Row, Col, NavItem, Nav, MenuItem, NavDropdown, Modal }  from 'react-bootstrap'
+import { Button, Tab, Row, Col, NavItem, Nav, MenuItem, DropdownButton, Modal }  from 'react-bootstrap'
 import InventoryTable from "./InventoryTable";
 import CreateCategory from "./CreateCategory";
 import DeleteCategory from "./DeleteCategory";
@@ -90,28 +90,32 @@ class Categories extends React.Component {
                 <Tab.Container id="tabs-with-dropdown" defaultActiveKey="first">
                     <Row className="clearfix">
                         {/* The Row of Tabs (category names and actions) : */}
-                        <Col sm={12}>
+                        <Col xs={12} md={9}>
                             <Nav bsStyle="tabs">
                                 <NavItem eventKey="first" onSelect={(ev_key, ev) => {this.setState({...this.state, currentTab : ev_key})}}>
                                     Tab 1
                                 </NavItem>
-                                <NavItem eventKey="second" onSelect={(ev_key, ev) => {this.setState({...this.state, currentTab : ev_key})}}>>
+                                <NavItem eventKey="second" onSelect={(ev_key, ev) => {this.setState({...this.state, currentTab : ev_key})}}>
                                     Tab 2
                                 </NavItem>
                                 <NavItem eventKey="third"
                                          onSelect={(ev_key, ev) => {this.setState({...this.state, currentTab : ev_key})}}>
                                     Tab 3
                                 </NavItem>
-
-                                {/*Dropdown should display option to create and delete categories**/}
-                                <NavDropdown eventKey="3" title="More Actions">
-                                    <MenuItem eventKey="3.1">Action</MenuItem>
-                                    <MenuItem eventKey="3.2">Another action</MenuItem>
-                                    <MenuItem eventKey="3.3">Something else here</MenuItem>
-                                    <MenuItem divider />
-                                    <MenuItem eventKey="3.4">Separated link</MenuItem>
-                                </NavDropdown>
                             </Nav>
+                        </Col>
+                        <Col xs={6} md={3}>
+                            {/*Dropdown should display option to create and delete categories**/}
+                            <DropdownButton eventKey="3" title="Category Actions">
+                                <MenuItem eventKey={this.state.currentTab} onClick={this.showCreateCategory.bind(this)}>
+                                    Create Category
+                                </MenuItem>
+                                <MenuItem>
+                                    Delete Category
+                                </MenuItem>
+                                <MenuItem divider />
+                                <MenuItem eventKey="3.4">Separated link</MenuItem>
+                            </DropdownButton>
                         </Col>
 
                         {/* The Row of tab contents (the item tables within categories) :*/}
