@@ -43,6 +43,7 @@ export default class CreateItemForm extends React.Component {
                         {/*Product Category goes here*/}
                         <ControlLabel>Product Category</ControlLabel>
                         <ProductCategory/>
+                        <br/>
                         
                         {/*Upload image here*/}
                         <ControlLabel>Image</ControlLabel>
@@ -58,9 +59,7 @@ export default class CreateItemForm extends React.Component {
 
                     </FormGroup>
 
-
-
-
+                    <Button bsStyle="success">Create Item</Button>
                 </form>
 
             </div>

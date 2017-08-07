@@ -2,7 +2,7 @@
  * Created by admin on 2017-08-07.
  */
 import React from 'react';
-import { Button, Well, Col, Row, Grid, Collapse } from 'react-bootstrap'
+import { Button, Form, FormGroup, FormControl, ControlLabel, Well, Col, Row, Grid, Collapse } from 'react-bootstrap'
 import TagTextBox from "./TagTextBox";
 import VariationType from "./VariationType"
 
@@ -16,6 +16,13 @@ export default class VariationsForm extends React.Component {
         };
     }
 
+    addVariation() {
+        this.setState( {
+            numChildren: this.state.numChildren + 1
+        });
+        <VariationType/>
+    }
+
 
 
     render() {
@@ -27,22 +34,23 @@ export default class VariationsForm extends React.Component {
                 <Collapse in={this.state.open}>
                     <div>
                         <Well>
-                            <Grid>
-                                <Row className="headers">
-                                    <Col md={6} mdPush={6}> Variation name </Col>
-                                    <Col md={6} mdPull={6}> Variation values </Col>
-                                </Row>
+                            <Form inline>
+                                <FormGroup controlId="formInlineName">
+                                    {' '}
+                                    <FormControl type="text" placeholder="Variation Type" />
+                                </FormGroup>
+                                {' '}
+                                <FormGroup controlId="formInlineEmail">
+                                    {' '}
+                                    <FormControl type="email" placeholder="Variation Values" />
+                                </FormGroup>
+                                {' '}
+                                <Button type="submit">
+                                    Delete
+                                </Button>
+                            </Form>
 
-                                <Row className="addVariations">
-                                    <Col md={6} mdPush={6}> Variation name </Col>
-                                    <Col md={6} mdPull={6}> <TagTextBox name="variationVals"/> </Col>
-                                </Row>
-
-                            </Grid>
-                            <Button onClick={
-                                this.setState({})
-
-                            }>Add variation</Button>
+                            <Button onClick={this.addVariation()}> Add variation</Button>
                         </Well>
                     </div>
                 </Collapse>

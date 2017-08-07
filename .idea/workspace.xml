@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68f84c58-8faa-42a2-8fd8-ee6150e32b4e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/VariationType.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/CreateItemForm.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/CreateItemForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/PicUploader.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/PicUploader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/ProductCategory.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/ProductCategory.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/ResizableTextbox.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/ResizableTextbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/TagTextBox.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/TagTextBox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/TextField.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/TextField.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/VariationsForm.js" afterPath="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/VariationsForm.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateItemForm.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateItemForm.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/CreateItemForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+            <state relative-caret-position="214">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#43#69#0" expanded="true" />
               </folding>
@@ -44,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VariationsForm.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VariationsForm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/VariationsForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="158">
+              <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
               <folding>
                 <element signature="e#43#69#0" expanded="true" />
               </folding>
@@ -59,8 +52,8 @@
       <file leaf-file-name="VariationType.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/VariationType.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding>
                 <element signature="e#43#69#0" expanded="true" />
               </folding>
@@ -224,9 +217,9 @@
         <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/ResizableTextbox.js" />
         <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/TextField.js" />
         <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/TagTextBox.js" />
-        <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/CreateItemForm.js" />
         <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/VariationType.js" />
         <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/VariationsForm.js" />
+        <option value="$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/CreateItemForm.js" />
       </list>
     </option>
   </component>
@@ -248,9 +241,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="629" />
+    <option name="x" value="612" />
     <option name="y" value="23" />
-    <option name="width" value="651" />
+    <option name="width" value="668" />
     <option name="height" value="719" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -596,18 +589,18 @@
       <workItem from="1501807669037" duration="341000" />
       <workItem from="1501957104442" duration="6603000" />
       <workItem from="1502121083214" duration="2412000" />
-      <workItem from="1502137139201" duration="2817000" />
+      <workItem from="1502137139201" duration="5841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76215000" />
+    <option name="totallyTimeSpent" value="79239000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="629" y="23" width="651" height="719" extended-state="0" />
+    <frame x="612" y="23" width="668" height="719" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4623656" sideWeight="0.49190283" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26342976" sideWeight="0.49190283" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -648,7 +641,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -867,7 +860,7 @@
         <state relative-caret-position="810">
           <caret line="56" column="48" lean-forward="false" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
           <folding>
-            <element signature="e#43#69#0" expanded="true" />
+            <element signature="e#43#69#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -941,20 +934,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/CreateItemForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding>
-            <element signature="e#43#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/VariationType.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="300">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding>
             <element signature="e#43#69#0" expanded="true" />
           </folding>
@@ -963,8 +946,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/VariationsForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="158">
+          <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+          <folding>
+            <element signature="e#43#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabs/Inventory/CheckInventory/CreateItem/CreateItemForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#43#69#0" expanded="true" />
           </folding>
