@@ -5,7 +5,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { WithContext as ReactTags } from 'react-tag-input';
 
-class TagTextBox extends React.Component {
+export default class TagTextBox extends React.Component {
     constructor(props) {
         super(props);
 
@@ -62,4 +62,3 @@ class TagTextBox extends React.Component {
     }
 }
 
-export default TagTextBox;

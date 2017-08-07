@@ -2,15 +2,20 @@
  * Created by admin on 2017-08-07.
  */
 import React from 'react';
-import { Button, Well, Collapse } from 'react-bootstrap'
+import { Button, Well, Col, Row, Grid, Collapse } from 'react-bootstrap'
+import TagTextBox from "./TagTextBox";
+import VariationType from "./VariationType"
 
-class VariationsForm extends React.Component {
+export default class VariationsForm extends React.Component {
 
     constructor(...args) {
         super(...args);
 
-        this.state = {};
+        this.state = {
+            numChildren: 0
+        };
     }
+
 
 
     render() {
@@ -22,8 +27,22 @@ class VariationsForm extends React.Component {
                 <Collapse in={this.state.open}>
                     <div>
                         <Well>
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            <Grid>
+                                <Row className="headers">
+                                    <Col md={6} mdPush={6}> Variation name </Col>
+                                    <Col md={6} mdPull={6}> Variation values </Col>
+                                </Row>
+
+                                <Row className="addVariations">
+                                    <Col md={6} mdPush={6}> Variation name </Col>
+                                    <Col md={6} mdPull={6}> <TagTextBox name="variationVals"/> </Col>
+                                </Row>
+
+                            </Grid>
+                            <Button onClick={
+                                this.setState({})
+
+                            }>Add variation</Button>
                         </Well>
                     </div>
                 </Collapse>
@@ -31,4 +50,3 @@ class VariationsForm extends React.Component {
         );
     }
 }
-export default VariationsForm;

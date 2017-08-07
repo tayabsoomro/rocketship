@@ -8,7 +8,7 @@ import React from 'react';
 import { ButtonToolbar, DropdownButton, MenuItem, form } from 'react-bootstrap'
 
 
-class ProductCategory extends React.Component {
+export default class ProductCategory extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -32,4 +32,3 @@ class ProductCategory extends React.Component {
         );
     }
 }
-export default ProductCategory;

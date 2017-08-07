@@ -7,7 +7,7 @@
 import React from 'react';
 import { form, ControlLabel, HelpBlock, FormGroup, FormControl } from 'react-bootstrap'
 
-class TextField extends React.Component {
+export default class TextField extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -50,4 +50,3 @@ class TextField extends React.Component {
         );
     }
 }
-export default TextField;

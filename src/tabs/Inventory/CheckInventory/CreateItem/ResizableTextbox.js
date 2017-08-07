@@ -8,7 +8,7 @@ import Textarea from 'react-textarea-autosize';
 //
 // var Textarea = require('react-textarea-autosize').default;
 
-class ResizableTextbox extends React.Component {
+export default class ResizableTextbox extends React.Component {
     constructor() {
         super();
     }
@@ -21,4 +21,3 @@ class ResizableTextbox extends React.Component {
         );
     }
 }
-export default ResizableTextbox;

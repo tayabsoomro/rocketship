@@ -10,7 +10,7 @@ import ResizableTextbox from "./ResizableTextbox"
 import VariationsForm from "./VariationsForm";
 
 
-class CreateItemForm extends React.Component {
+export default class CreateItemForm extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -37,7 +37,7 @@ class CreateItemForm extends React.Component {
 
                         <ControlLabel>Tags</ControlLabel>
                         {/*Draggable tag textbox goes here*/}
-                        <TagTextBox/>
+                        <TagTextBox name="itemTags"/>
                         <br/>
 
                         {/*Product Category goes here*/}
@@ -67,4 +67,3 @@ class CreateItemForm extends React.Component {
         );
     }
 }
-export default CreateItemForm;

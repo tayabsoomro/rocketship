@@ -6,7 +6,7 @@ import ImageUploader from 'react-image-upload';
 
 
 
-class PicUploader extends React.Component {
+export default class PicUploader extends React.Component {
 
     constructor(props) {
         super(props);
@@ -26,4 +26,3 @@ class PicUploader extends React.Component {
         );
     }
 }
-export default PicUploader;
