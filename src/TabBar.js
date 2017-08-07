@@ -12,6 +12,7 @@ import Inventory from './tabs/Inventory/CheckInventory/Inventory'
 import Home from './tabs/home/Home'
 import AddItemModal from './tabs/Inventory/OrderItems/AddItemModal'
 import OrderSupplies from "./tabs/Inventory/OrderItems/OrderSupplies"
+import CreateItem from "./tabs/Inventory/CheckInventory/CreateItem/CreateItemForm"
 
 
 
@@ -48,7 +49,7 @@ class TabBar extends React.Component {
                                     Order Items
                                 </NavItem>
                                 <NavItem eventKey="fifth">
-                                    Performance
+                                    Create
                                 </NavItem>
                              </Nav>
                         </Col>
@@ -67,7 +68,7 @@ class TabBar extends React.Component {
                                     <OrderSupplies/>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="fifth">
-                                    nothing
+                                    <CreateItem/>
                                 </Tab.Pane>
                             </Tab.Content>
                         </Col>

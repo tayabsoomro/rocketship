@@ -144,7 +144,8 @@ class Categories extends React.Component {
                         </Col>
                     </Row>
                 </Tab.Container>
-                <div>  {this.props.children} </div>
+                  {/*declaring that the second row will house the contents of each category/tab*/}
+                    <div>  {this.props.children} </div>
               </Row>
               </Tab.Container>
             </div>
