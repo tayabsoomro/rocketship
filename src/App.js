@@ -5,7 +5,7 @@ import NavItem from 'react-bootstrap/lib/NavItem'
 import NavDropdown from 'react-bootstrap/lib/NavDropdown'
 import MenuItem from 'react-bootstrap/lib/MenuItem'
 import TabBar from "./TabBar";
-import Well from 'react-bootstrap/lib/Well'
+import Well from 'react-bootstrap/lib/Well';
 
 
 
