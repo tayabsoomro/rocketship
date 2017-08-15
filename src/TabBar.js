@@ -1,7 +1,7 @@
 /**
  * Created by tayabsoomro on 2017-07-07.
  */
-import React from 'react';
+import React from 'react'
 import Tabs from 'react-bootstrap/lib/Tabs'
 import Tab from 'react-bootstrap/lib/Tab'
 import Nav from 'react-bootstrap/lib/Nav'
@@ -12,10 +12,8 @@ import Inventory from './tabs/Inventory/CheckInventory/Inventory'
 import Home from './tabs/home/Home'
 import AddItemModal from './tabs/Inventory/OrderItems/AddItemModal'
 import OrderSupplies from "./tabs/Inventory/OrderItems/OrderSupplies"
-
 import CreateItem from "./tabs/Inventory/CheckInventory/CreateItem/CreateItemForm"
-
-import { LinkContainer } from 'react-router-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap'
 
 
 
@@ -26,7 +24,6 @@ class TabBar extends React.Component {
     }
 
     render() {
-        console.log(" THIS-> " + this.props.tabName);
         return (
             <div>
                <Tab.Container id="left-tabs-example" defaultActiveKey={this.props.tabName}>
@@ -54,6 +51,11 @@ class TabBar extends React.Component {
                                       Order Items
                                   </NavItem>
                                 </LinkContainer>
+                                <LinkContainer to="/createitem">
+                                  <NavItem eventKey="/createitem">
+                                      Create Item
+                                  </NavItem>
+                                </LinkContainer>
                                 <LinkContainer to="/performance">
                                   <NavItem eventKey="/performance">
                                       Performance
@@ -76,10 +78,9 @@ class TabBar extends React.Component {
                                 <Tab.Pane eventKey="/orderSupplies">
                                     <OrderSupplies/>
                                 </Tab.Pane>
-
                                 <Tab.Pane eventKey="/createitem">
                                     <CreateItem/>
-
+                                </Tab.Pane>
                                 <Tab.Pane eventKey="/performance">
                                     nothing
                                 </Tab.Pane>
