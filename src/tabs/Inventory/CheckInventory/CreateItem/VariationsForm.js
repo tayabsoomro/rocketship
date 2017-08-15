@@ -12,7 +12,7 @@ export default class VariationsForm extends React.Component {
         super(...args);
 
         this.state = {
-            numChildren: 0
+            numChildren: 1
         };
     }
 
@@ -20,12 +20,12 @@ export default class VariationsForm extends React.Component {
         this.setState( {
             numChildren: this.state.numChildren + 1
         });
-        <VariationType/>
     }
 
 
 
     render() {
+
         return (
             <div>
                 <Button onClick={ ()=> this.setState({ open: !this.state.open })}>
@@ -34,23 +34,13 @@ export default class VariationsForm extends React.Component {
                 <Collapse in={this.state.open}>
                     <div>
                         <Well>
-                            <Form inline>
-                                <FormGroup controlId="formInlineName">
-                                    {' '}
-                                    <FormControl type="text" placeholder="Variation Type" />
-                                </FormGroup>
-                                {' '}
-                                <FormGroup controlId="formInlineEmail">
-                                    {' '}
-                                    <FormControl type="email" placeholder="Variation Values" />
-                                </FormGroup>
-                                {' '}
-                                <Button type="submit">
-                                    Delete
-                                </Button>
-                            </Form>
 
-                            <Button onClick={this.addVariation()}> Add variation</Button>
+                            <VariationType numVar={this.state.numChildren} />
+                            <Button onClick={this.addVariation.bind(this)}> Add variation</Button>
+
+                            <Button bsStyle="success"> Submit </Button>
+
+
                         </Well>
                     </div>
                 </Collapse>
