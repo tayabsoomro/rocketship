@@ -5,7 +5,8 @@ import NavItem from 'react-bootstrap/lib/NavItem'
 import NavDropdown from 'react-bootstrap/lib/NavDropdown'
 import MenuItem from 'react-bootstrap/lib/MenuItem'
 import TabBar from "./TabBar";
-import Well from 'react-bootstrap/lib/Well'
+import Well from 'react-bootstrap/lib/Well';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 
 
@@ -18,16 +19,15 @@ class App extends React.Component {
   }
 
   render() {
-    return (
-
+      let currentPath = window.location.pathname;
+      return(
         <div>
-        <Well>Rocketship</Well>
-            <div className="col-lg-12 col-md-12">
-                <TabBar/>
-            </div>
+            <Well>Rocketship</Well>
+            <Route path={currentPath}>
+              <TabBar tabName={currentPath}/>
+            </Route>
         </div>
-
-    );
+      );
   }
 }
 export default App;
