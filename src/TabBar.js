@@ -12,7 +12,11 @@ import Inventory from './tabs/Inventory/CheckInventory/Inventory'
 import Home from './tabs/home/Home'
 import AddItemModal from './tabs/Inventory/OrderItems/AddItemModal'
 import OrderSupplies from "./tabs/Inventory/OrderItems/OrderSupplies"
+
+import CreateItem from "./tabs/Inventory/CheckInventory/CreateItem/CreateItemForm"
+
 import { LinkContainer } from 'react-router-bootstrap';
+
 
 
 
@@ -29,6 +33,7 @@ class TabBar extends React.Component {
                     <Row className="clearfix">
                         <Col sm={4}>
                             <Nav bsStyle="pills" stacked>
+
                                 <LinkContainer to="/">
                                   <NavItem eventKey="/">
                                       Home
@@ -54,6 +59,7 @@ class TabBar extends React.Component {
                                       Performance
                                   </NavItem>
                                 </LinkContainer>
+
                              </Nav>
                         </Col>
                         <Col sm={8}>
@@ -70,6 +76,10 @@ class TabBar extends React.Component {
                                 <Tab.Pane eventKey="/orderSupplies">
                                     <OrderSupplies/>
                                 </Tab.Pane>
+
+                                <Tab.Pane eventKey="/createitem">
+                                    <CreateItem/>
+
                                 <Tab.Pane eventKey="/performance">
                                     nothing
                                 </Tab.Pane>
