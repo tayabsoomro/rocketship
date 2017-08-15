@@ -6,7 +6,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 document.addEventListener('DOMContentLoaded', function() {
   ReactDOM.render(
       <BrowserRouter>
-        <Route path='/app' component={App}/>
+        <App/>
       </BrowserRouter>,
       document.getElementById('app')
   );
