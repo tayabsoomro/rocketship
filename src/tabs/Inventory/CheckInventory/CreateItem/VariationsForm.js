@@ -36,14 +36,16 @@ export default class VariationsForm extends React.Component {
                         <Well>
 
                             <VariationType numVar={this.state.numChildren} />
-                            <Button onClick={this.addVariation.bind(this)}> Add variation</Button>
-
-                            <Button bsStyle="success"> Submit </Button>
-
+                            <div>
+                                <Button className="pull-right" onClick={this.addVariation.bind(this)}> Add variation</Button>
+                                {' '}
+                                <Button className="pull-right" bsStyle="success"> Submit </Button>
+                            </div>
 
                         </Well>
                     </div>
                 </Collapse>
+
             </div>
         );
     }

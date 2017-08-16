@@ -22,7 +22,15 @@ class App extends React.Component {
       let currentPath = window.location.pathname;
       return(
         <div>
-            <Well>Rocketship</Well>
+            <Well>
+                Rocketship
+                <div className="pull-right">
+                    <a href="#">Log in</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#">Sign up</a>
+                </div>
+
+            </Well>
             <Route path={currentPath}>
               <TabBar tabName={currentPath}/>
             </Route>
