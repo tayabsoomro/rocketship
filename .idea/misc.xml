@@ -3,9 +3,7 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="JSX" />
   </component>
-  <component name="JsBowerSettings">
-    <node-interpreter value="project" />
-    <exe-path>/usr/local/bin/bower</exe-path>
-    <config-path />
+  <component name="PreferredVcsStorage">
+    <preferredVcsName>ApexVCS</preferredVcsName>
   </component>
 </project>
