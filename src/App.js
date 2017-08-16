@@ -17,7 +17,6 @@ class App extends React.Component {
             count: 0,
         };
     }
-
     render() {
         let currentPath = window.location.pathname;
         return(
