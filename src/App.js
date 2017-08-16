@@ -11,23 +11,22 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 
 class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      count: 0,
-    };
-  }
-
-  render() {
-      let currentPath = window.location.pathname;
-      return(
-        <div>
-            <Well>Rocketship</Well>
-            <Route path={currentPath}>
-              <TabBar tabName={currentPath}/>
-            </Route>
-        </div>
-      );
-  }
+    constructor() {
+        super();
+        this.state = {
+            count: 0,
+        };
+    }
+    render() {
+        let currentPath = window.location.pathname;
+        return(
+            <div>
+                <Well>Rocketship</Well>
+                <Route path={currentPath}>
+                    <TabBar tabName={currentPath}/>
+                </Route>
+            </div>
+        );
+    }
 }
 export default App;
