@@ -11,7 +11,7 @@ import FormPanel from './users/FormPanel';
 
 
 
-class App extends React.Component {
+class Login extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -23,8 +23,6 @@ class App extends React.Component {
       let currentPath = window.location.pathname;
       return(
         <div>
-            <Well>Rocketship</Well>
-            <Route exact path='/'>
               <div className='col-sm-12 col-md-12 col-lg-12'>
                 <div className='col-md-1'></div>
                 <div className='col-md-5 col-sm-12'>
@@ -44,16 +42,15 @@ class App extends React.Component {
                       event.preventDefault() ; console.log('Submit');}
                     }
                     submitName='Sign Up'
-                    title='Creat an Account'
+                    title='Create an Account'
                     fields={['First Name', 'Last Name' , 'Email', 'Password']}
                   >
                   </FormPanel>
                 </div>
                 <div className='col-md-1'></div>
               </div>
-            </Route>
         </div>
       );
   }
 }
-export default App;
+export default Login;

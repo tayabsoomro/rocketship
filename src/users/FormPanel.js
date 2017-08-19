@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { LinkContainer } from 'react-router-bootstrap'
 import { ButtonToolbar, Button , Col , Row , Panel , FormGroup , ControlLabel ,
         FormControl , HelpBlock }
   from 'react-bootstrap/lib';
@@ -68,7 +69,9 @@ import { ButtonToolbar, Button , Col , Row , Panel , FormGroup , ControlLabel ,
                       </FormGroup>
                     )}
                     <ButtonToolbar>
-                      <Button type="submit">{this.props.submitName}</Button>
+                    <LinkContainer to="/user">
+                          <Button type="submit">{this.props.submitName}</Button>
+                    </LinkContainer>
                       <Button onClick={() => {
                             this.setState(this.defaultState(this.props.fields));
                         }}>
