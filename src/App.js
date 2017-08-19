@@ -7,6 +7,7 @@ import MenuItem from 'react-bootstrap/lib/MenuItem'
 import TabBar from "./TabBar";
 import Well from 'react-bootstrap/lib/Well';
 import { BrowserRouter, Route } from 'react-router-dom';
+import FormPanel from './users/FormPanel';
 
 
 
@@ -22,15 +23,34 @@ class App extends React.Component {
       let currentPath = window.location.pathname;
       return(
         <div>
-            <Well>Rocketship
-                <div>
-                    <a href="#"> Log in </a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#"> Sign up </a>
+            <Well>Rocketship</Well>
+            <Route exact path='/'>
+              <div className='col-sm-12 col-md-12 col-lg-12'>
+                <div className='col-md-1'></div>
+                <div className='col-md-5 col-sm-12'>
+                  <FormPanel
+                    onSubmit={(event) => {
+                      event.preventDefault() ; console.log('Submit');
+                    }}
+                    submitName='Login'
+                    title='Login'
+                    fields={['User ID/Email Address', 'Password']}
+                  >
+                  </FormPanel>
                 </div>
-            </Well>
-            <Route path={currentPath}>
-              <TabBar tabName={currentPath}/>
+                <div className='col-md-5 col-sm-12'>
+                  <FormPanel
+                    onSubmit={(event) => {
+                      event.preventDefault() ; console.log('Submit');}
+                    }
+                    submitName='Sign Up'
+                    title='Creat an Account'
+                    fields={['First Name', 'Last Name' , 'Email', 'Password']}
+                  >
+                  </FormPanel>
+                </div>
+                <div className='col-md-1'></div>
+              </div>
             </Route>
         </div>
       );
